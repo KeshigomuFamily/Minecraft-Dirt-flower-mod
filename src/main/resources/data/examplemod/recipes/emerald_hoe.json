@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "/ ",
+    "/ "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "/": {
+      "item": "examplemod:emerald_stick"
+    }
+  },
+  "result": {
+    "item": "examplemod:emerald_hoe",
+    "count": 1
+  }
+}

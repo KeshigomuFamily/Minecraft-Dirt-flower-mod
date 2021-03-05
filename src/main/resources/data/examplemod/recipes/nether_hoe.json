@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "/ ",
+    "/ "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_star"
+    },
+    "/": {
+      "item": "examplemod:nether_stick"
+    }
+  },
+  "result": {
+    "item": "examplemod:nether_hoe",
+    "count": 1
+  }
+}

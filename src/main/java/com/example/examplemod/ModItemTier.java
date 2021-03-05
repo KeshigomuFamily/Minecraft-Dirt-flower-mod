@@ -10,8 +10,12 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
 
-    DIRT(4, 17, 9.0F, 2.0F, 14, () -> Ingredient.fromItems(Items.DIRT)),
-    FLOWER(2, 2023, 9.0F, 1.0F, 22, () -> Ingredient.fromTag(ItemTags.TALL_FLOWERS));
+    DIRT(3, 17, 9.0F, 2.0F, 14, () -> Ingredient.fromItems(Items.DIRT)),
+    FLOWER(1, 653, 9.0F, 1.0F, 22, () -> Ingredient.fromTag(ItemTags.TALL_FLOWERS)),
+    GLASS(1, 54, 9.0F, 4.0F, 15, () -> Ingredient.fromItems(Items.GLASS)),
+    OBSIDIAN(2, 1324, 9.0F, 4.0F, 18, () -> Ingredient.fromItems(Items.OBSIDIAN)),
+    NETHER(4, 700, 9.0F, 20.0F, 6, () -> Ingredient.fromItems(Items.NETHER_STAR)),
+    EMERALD(3, 1024, 9.0F, 5.0F, 22, () -> Ingredient.fromItems(Items.EMERALD));
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
